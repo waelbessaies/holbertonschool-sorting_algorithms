@@ -12,7 +12,7 @@ listint_t *tmp, *curr, *hold;
 if (list == NULL || *list == NULL || (*list)->next == NULL)
 return;
 
-tmp = (*list)->next;	
+tmp = (*list)->next;
 while (tmp)
 {
 curr = tmp;
